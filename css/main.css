@@ -51,6 +51,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+
 }
 table, th, td {
     
@@ -59,3 +60,34 @@ table, th, td {
     padding: 5px;
     margin-bottom: 10px;
 }
+
+footer {
+    display: block;
+    background-color:black;
+    color:white;
+    
+    width: 100%;
+    float: left;
+}
+
+footer li a {
+    color: tomato;
+    text-decoration: none;
+}
+
+footer .half-width {
+    display: block;
+    float: left;
+    width: 50%;
+    
+}
+
+footer li {
+    display: inline-block;
+    padding: 10px;
+}
+
+footer li img {
+    width: 100px;
+}
+
